@@ -1,0 +1,64 @@
+@media only screen and (max-width: 600px) {
+  .container {
+    max-width: 300px;
+  }
+}
+
+@keyframes mouseHover {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+body{
+  background-color: #1a1c20;
+}
+
+h5{
+  color: #faf8ef;
+  text-align: center;
+  font-weight: bold;
+  font-size: 36px;
+}
+
+h6{
+  color: #faf8ef;
+  text-align: center;
+  font-size: 13px;
+}
+
+.name{
+  color: #faf8ef;
+}
+
+p {
+  text-align: justify;
+  -moz-text-align-last: center;
+  text-align-last: center;
+  font-size: 18px;
+  color: #faf8ef;
+}
+
+img {
+  align-content: center;    
+}
+
+.btn {
+  color: #faf8ef;
+  font-size: 15px;
+  border: 0.5px solid #faf8ef;
+}
+
+.btn:hover {
+  display: block;
+  animation: mouseHover 1.5s;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+hr {
+  border: 1; border-top: 1px dotted #faf8ef;   
+}
