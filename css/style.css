@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
 @media only screen and (max-width: 600px) {
   .container {
     max-width: 300px;
@@ -15,23 +17,24 @@
 
 body{
   background-color: #1a1c20;
+  font-family: "PT Sans", Helvetica, Arial, sans-serif;
 }
 
 h5{
-  color: #faf8ef;
+  color: #e2e2e3;
   text-align: center;
   font-weight: bold;
   font-size: 36px;
 }
 
 h6{
-  color: #faf8ef;
+  color: #e2e2e3;
   text-align: center;
   font-size: 13px;
 }
 
 .name{
-  color: #faf8ef;
+  color: #e2e2e3;
 }
 
 p {
@@ -39,7 +42,7 @@ p {
   -moz-text-align-last: center;
   text-align-last: center;
   font-size: 18px;
-  color: #faf8ef;
+  color: #e2e2e3;
 }
 
 img {
@@ -47,7 +50,7 @@ img {
 }
 
 .btn {
-  color: #faf8ef;
+  color: #e2e2e3;
   font-size: 15px;
   border: 0.5px solid #faf8ef;
 }
@@ -60,5 +63,5 @@ img {
 }
 
 hr {
-  border: 1; border-top: 1px dotted #faf8ef;   
+  border: 1; border-top: 1px dotted #faf8ef;
 }
