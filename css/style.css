@@ -4,6 +4,7 @@
   .container {
     max-width: 300px;
   }
+  
 }
 
 @keyframes mouseHover {
@@ -37,10 +38,10 @@ h6{
   color: #e2e2e3;
 }
 
-p {
-  text-align: justify;
-  -moz-text-align-last: center;
-  text-align-last: center;
+p.paragraph {
+  position: relative;
+  text-align:justify;
+  word-break: break-all;
   font-size: 18px;
   color: #e2e2e3;
 }
